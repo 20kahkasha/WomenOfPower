@@ -10,25 +10,14 @@ const About = ({ data }) => {
   return (
     <section className="section mt-16">
       <div className="container text-center">
-        {image && (
-          <div className="mb-8">
-            <Image
-              src={image}
-              width={1298}
-              height={616}
-              alt={title}
-              className="rounded-lg"
-              priority={true}
-            />
-          </div>
-        )}
+       
         {markdownify(title, "h1", "h1 text-left lg:text-[55px] mt-12")}
 
         <div className="content text-left">
           <MDXRemote {...mdxContent} components={shortcodes} />
         </div>
 
-        <div className="row mt-24 text-left lg:flex-nowrap">
+        {/* <div className="row mt-24 text-left lg:flex-nowrap">
           <div className="lg:col-6 ">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(education.title, "h2", "section-title mb-12")}
@@ -59,7 +48,19 @@ const About = ({ data }) => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
+         {/* {image && (
+          <div className="mb-8">
+            <Image
+              src={image}
+              width={1298}
+              height={616}
+              alt={title}
+              className="rounded-lg"
+              priority={true}
+            />
+          </div>
+        )} */}
       </div>
     </section>
   );

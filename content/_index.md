@@ -1,25 +1,25 @@
 ---
 banner:
-  title: Welcome **!**
-  title_small: "to John Bravo's Blog"
-  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
-  image: /images/banner-author.png
+  title: Spreading the sparks of
+  # title_small: "Learn from journeys of others"
+  content: Everyday Empowered Women
+  image: /images/banner-logo.png
   button:
-    label: Know About Me
+    label: Our Mission
     link: /about
     rel: ""
 
 featured_posts:
-  enable: true
+  enable: false
   title: Featured Posts
 
 promotion:
-  enable: true
+  enable: false
   image: /images/promotion.png
   link: "#"
 
 recent_posts:
   title: Recent Posts
-  enable: true
+  enable: false
 
 ---

@@ -12,6 +12,7 @@ import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { FaRegCalendar } from "react-icons/fa";
 const { blog_folder, pagination } = config.settings;
+import { createClient } from "next-sanity";
 
 const Home = ({
   banner,
@@ -45,10 +46,12 @@ const Home = ({
           <div className="row flex-wrap-reverse items-center justify-center lg:flex-row">
             <div className="mt-12 text-center lg:mt-0 lg:text-left lg:col-6">
               <div className="banner-title">
-                {markdownify(banner.title, "h1")}
-                {markdownify(banner.title_small, "span")}
+                {markdownify(banner.title, "h1","text-gray-500")}
+                {/* {markdownify(banner.title_small, "span")} */}
               </div>
-              {markdownify(banner.content, "p", "mt-4")}
+              <div className="mt-4">
+              {markdownify(banner.content, "h2", "text-red-600")}
+              </div>
               <Link
                 className="btn btn-primary mt-6"
                 href={banner.button.link}
@@ -59,7 +62,7 @@ const Home = ({
             </div>
             <div className="col-9 lg:col-6">
               <ImageFallback
-                className="mx-auto object-contain"
+                className="mx-auto  object-contain"
                 src={banner.image}
                 width={548}
                 height={443}
@@ -162,11 +165,11 @@ const Home = ({
               />
             </div>
             {/* sidebar */}
-            <Sidebar
+            {/* <Sidebar
               className={"lg:mt-[9.5rem]"}
               posts={posts}
               categories={categories}
-            />
+            /> */}
           </div>
         </div>
       </section>
@@ -205,3 +208,20 @@ export const getStaticProps = async () => {
     },
   };
 };
+
+// export async function getServerSideProps(context) {
+//   const client = createClient({
+//     projectId: 'en3zzs0f',
+//     dataset: 'production',
+//     useCdn: false
+//   })
+//   const query =  `*[_type == "post"]`;
+//   const post= await client.fetch(query);
+//   // const profilequery =  `*[_type == "profile"][0]`;
+//   // const profile= await client.fetch(profilequery);
+//   return{
+//     props:{
+//       post
+//     }
+//   }
+// };
