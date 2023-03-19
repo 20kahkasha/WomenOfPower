@@ -2,18 +2,21 @@ import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
+import Head from "next/head";
 
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
   const { title, image, education, experience } = frontmatter;
 
   return (
-    <section className="section mt-16">
+    <> 
+    
+    <section className="section  pl-100 pr-100 ml-130 mr-130">
       <div className="container text-center">
        
-        {markdownify(title, "h1", "h1 text-left lg:text-[55px] mt-12")}
+        {markdownify(title, "h1", "h1 text-center lg:text-[80px] p-20   text-gray-500 font-mono" )}
 
-        <div className="content text-left">
+        <div className="content text-left  m-32 ">
           <MDXRemote {...mdxContent} components={shortcodes} />
         </div>
 
@@ -63,6 +66,7 @@ const About = ({ data }) => {
         )} */}
       </div>
     </section>
+    </>
   );
 };
 

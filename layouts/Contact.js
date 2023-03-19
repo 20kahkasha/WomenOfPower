@@ -154,3 +154,17 @@ const Contact = ({ data }) => {
 };
 
 export default Contact;
+
+
+// this is json for pages and categories
+// {
+//       "name": "Pages",
+//       "url": "",
+//       "hasChildren": true,
+//       "children": [
+//         {
+//           "name": "Categories",
+//           "url": "/categories"
+//         }
+//       ]
+//     }

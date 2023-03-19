@@ -12,7 +12,7 @@ import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import { FaRegCalendar } from "react-icons/fa";
 const { blog_folder, pagination } = config.settings;
-import { createClient } from "next-sanity";
+
 
 const Home = ({
   banner,
@@ -32,7 +32,7 @@ const Home = ({
   return (
     <Base>
       {/* Banner */}
-      <section className="section banner relative pb-0">
+      <section className="section banner relative pb-48 pt-40">
         <ImageFallback
           className="absolute bottom-0 left-0 z-[-1] w-full"
           src={"/images/banner-bg-shape.svg"}
@@ -45,24 +45,28 @@ const Home = ({
         <div className="container">
           <div className="row flex-wrap-reverse items-center justify-center lg:flex-row">
             <div className="mt-12 text-center lg:mt-0 lg:text-left lg:col-6">
-              <div className="banner-title">
-                {markdownify(banner.title, "h1","text-gray-500")}
-                {/* {markdownify(banner.title_small, "span")} */}
+              <div className="banner-title pt-50">
+                {markdownify(banner.title, "h1","h1 text-slate-400 mt-16")}
+                {markdownify(banner.title_small, "h1","h1 text-slate-400 mt-6")}
+                {markdownify(banner.content, "h1", "h1 text-slate-400 mt-6")}
+                
+              
               </div>
-              <div className="mt-4">
-              {markdownify(banner.content, "h2", "text-red-600")}
-              </div>
+              <div>
               <Link
-                className="btn btn-primary mt-6"
-                href={banner.button.link}
-                rel={banner.button.rel}
-              >
-                {banner.button.label}
-              </Link>
+
+className="btn btn-primary mt-24"
+href={banner.button.link}
+rel={banner.button.rel}
+>
+{banner.button.label}
+</Link>
+              </div>
+             
             </div>
             <div className="col-9 lg:col-6">
               <ImageFallback
-                className="mx-auto  object-contain"
+                className="mx-auto  object-contain mt-4"
                 src={banner.image}
                 width={548}
                 height={443}

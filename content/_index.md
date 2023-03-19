@@ -1,8 +1,8 @@
 ---
 banner:
-  title: Spreading the sparks of
-  # title_small: "Learn from journeys of others"
-  content: Everyday Empowered Women
+  title: Uncover.
+  title_small: Inspire.
+  content: Empower.
   image: /images/banner-logo.png
   button:
     label: Our Mission
@@ -23,3 +23,4 @@ recent_posts:
   enable: false
 
 ---
+

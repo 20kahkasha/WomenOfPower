@@ -11,39 +11,12 @@
     {
       "name": "Blog",
       "url": "/posts"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Categories",
-          "url": "/categories"
-        }
-      ]
     }
+    
+    
   ],
   "footer": [
-    {
-      "name": "Home",
-      "url": "/"
-    },
-    {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "#"
-    }
+   
+    
   ]
 }
