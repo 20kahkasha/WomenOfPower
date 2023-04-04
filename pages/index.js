@@ -14,6 +14,7 @@ import { FaRegCalendar } from "react-icons/fa";
 const { blog_folder, pagination } = config.settings;
 
 
+
 const Home = ({
   banner,
   posts,
@@ -46,7 +47,7 @@ const Home = ({
           <div className="row flex-wrap-reverse items-center justify-center lg:flex-row">
             <div className="mt-12 text-center lg:mt-0 lg:text-left lg:col-6">
               <div className="banner-title pt-50">
-                {markdownify(banner.title, "h1","h1 text-slate-400 mt-16")}
+                {markdownify(banner.title, "h1","h1 text-slate-400 mt-16 ")}
                 {markdownify(banner.title_small, "h1","h1 text-slate-400 mt-6")}
                 {markdownify(banner.content, "h1", "h1 text-slate-400 mt-6")}
                 

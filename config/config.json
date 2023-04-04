@@ -2,12 +2,12 @@
   "site": {
     "title": "Women Of Power",
     "base_url": "/",
-    "favicon": "/images/banner-logo.png",
-    "logo": "/images/banner-logo.png",
-    "logo_white": "/images/banner-logo.png",
+    "favicon": "/images/headerLogo.png",
+    "logo": "/images/headerLogo.png",
+    "logo_white": "/images/headerLogo.png",
     "logo_width": "100",
     "logo_height": "50",
-    "logo_text": "Geeky"
+    "logo_text": "WomenOfPower"
   },
   "settings": {
     "theme_switcher": true,

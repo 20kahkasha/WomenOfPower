@@ -3,7 +3,7 @@ import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Head from "next/head";
-
+import styles from "../styles/about.module.css"
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
   const { title, image, education, experience } = frontmatter;
@@ -11,12 +11,12 @@ const About = ({ data }) => {
   return (
     <> 
     
-    <section className="section  pl-100 pr-100 ml-130 mr-130">
+    <section className="section px-6 sm:px-10 ml-130 mr-130">
       <div className="container text-center">
        
-        {markdownify(title, "h1", "h1 text-center lg:text-[80px] p-20   text-gray-500 font-mono" )}
+        {markdownify(title, "h1", "h1 text-center sm:text-[40px] md:text-[60px] lg:text-[80px] p-0 text-slate-600 font-sans" )}
 
-        <div className="content text-left  m-32 ">
+        <div className="content text-left mt-12 md:mt-16 lg:mt-20 max-w-3xl mx-auto">
           <MDXRemote {...mdxContent} components={shortcodes} />
         </div>
 

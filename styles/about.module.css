@@ -1,0 +1,9 @@
+
+.aboutPara{
+    color: blue;
+    min-width: 20rem;
+}
+
+.aboutBorder{
+    border: 2px solid red;
+}
