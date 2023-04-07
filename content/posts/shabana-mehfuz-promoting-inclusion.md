@@ -1,0 +1,21 @@
+---
+title: "A Journey Through Sports, Health, and STEM: Empowering Women and Promoting Inclusion"
+date: 2023-04-07T05:00:00Z
+image: /images/post/Shabana.jpeg
+categories: ["STEM"]
+featured: true
+draft: false
+---
+Join us as we take a journey through the inspiring experiences of a female professor in electrical engineering who has made her mark in the fields of sports, health, and STEM. From her passion for athletics to her dedication to promoting health and wellness, discover how she is empowering women in these fields. 
+
+We all know professional women have their ups and downs managing their career along with family. Women are expected to handle both gracefully as it is assumed that doing a job is their own choice . Our society pressures women to just be a good housewife. But our community will be sharing inspirational stories of successful women hoping that their stories can bring a difference to women across communities so they  can pursue their dreams.
+
+We are going to briefly talk about Shabana Mehfuz who is currently working as a professor,  a mentor in a university and is a mother of 2 boys.
+
+SHABANA MEHFUZ is a Senior Member of IEEE who has received a B.Tech. degree in Electrical engineering from Jamia Millia Islamia, India, in 1996, a M.Tech. degree in Computer Technology from IIT Delhi, in 2003, and a Ph.D. degree in Computer Engineering from Jamia Millia Islamia, in 2008. She secured First position in the order of merit in B.Tech.(Electrical Engineering). She has been working at the Department of Electrical Engineering, Jamia Millia Islamia, for the past 24 years. She has published more than 100 articles in International Journals and Conferences. She has guided several Phds students and is now supervising them. She is a Life Member of ISTE, a member of the Institution of Engineers, and a Life Member of the Computer Society of India. She has received grants for research projects from agencies, such as AICTE and UGC.  She has been awarded the International Inspirational Women Award 2020 for Best Performer in Government Award by GISR Foundation and has been awarded national award for excellence in education 2021 in the category of university/college teachers  by  AMP  organization.  Her  research  interests  include  Cloud  Computing,  Internet  of  Things  (IoT), Wireless Sensor Networks, Mobile ad-hoc Network, Artificial Intelligence and Machine Learning.
+She strongly believes that women having careers need to be healthy through each phase of life and balance both family as well as career. Women need to be financially independent and academically well educated. One of her son has a medical condition for which she needed surgical intervention, so she took some break to take care of him but managed to get back on her career path as well. She also mentors people who are struggling with a similar journey. She holds free sessions to those who are having difficult times to cope up with it emotionally and mentally by guiding them well. She admires her father alot for being supportive and not being discriminative in her career choices or education and for giving the best advice whenever she felt low. When she was pursuing her graduation she had to juggle between her marriage, kid and education. She struggled but thanks to her family support she made it. Now she is nearing her 10 years service in jmi as an associate professor, and will be preparing for higher and better positions to grow even further. Sports have always been a huge part of her life. She highly recommends girls to play sports in order to be active and fit. She loves teaching and seeing students learn and succeed in their careers.  She believes that in order to be a good professor- one needs to know how to understand and communicate well, have the power of knowledge and in-depth grasp on subjects,  one should have a positive attitude  and be a good motivator to make the class lively. 
+She advises young women out there to be open to explore variety in different fields if they are not sure about career, and for those who know their path should be confident and have self belief. Ultimately,one should be able to stand up for yourself and feel happy inside doing what you feel is right.
+
+
+
+
